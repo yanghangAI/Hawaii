@@ -8,11 +8,11 @@
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 
-<div id="trip-map" style="height: 520px; width: 100%; border-radius: 8px; margin: 1em 0;"></div>
+<div id="trip-map" style="height: 520px; min-height: 520px; width: 100%; border-radius: 8px; margin: 1em 0;"></div>
 
 <script>
-(function() {
-  var map = L.map('trip-map').setView([20.5, -157.0], 7);
+window.addEventListener('load', function() {
+  var map = L.map('trip-map');
   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 19,
     attribution: '&copy; OpenStreetMap'
@@ -75,7 +75,15 @@
     return div;
   };
   legend.addTo(map);
-})();
+
+  var allCoords = oahu.concat(bigIsland).map(function(s) { return s.coords; });
+  map.fitBounds(allCoords, { padding: [30, 30] });
+
+  setTimeout(function() {
+    map.invalidateSize();
+    map.fitBounds(allCoords, { padding: [30, 30] });
+  }, 250);
+});
 </script>
 
 ---
