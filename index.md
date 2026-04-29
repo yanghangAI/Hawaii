@@ -53,6 +53,7 @@ All 4 in one room — filter for **2 queen beds**. Target ~$200–280/night for 
 - Plan to be back in Waikiki by ~3 PM.
 
 **B组 (2人) — Water activity (pick one)**
+
 | Option | Cost/person | Notes |
 |---|---|---|
 | **[Hanauma Bay](https://www.google.com/search?q=Hanauma+Bay+reservation) snorkel** | $25 | Best snorkel on Oahu, but reservation lottery (open 48 hrs ahead, 7 AM HST sharp) |
