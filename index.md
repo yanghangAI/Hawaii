@@ -16,8 +16,14 @@
 **Why no car:** Waikiki parking runs $35–50/night and TheBus + walking covers everything. Get a HOLO card at any 7-Eleven: $3/ride, $7.50/day cap, $30/week cap.
 
 ### Lodging
-- **Waikiki Beachside Hostel** or **Polynesian Hostel Beach Club** — private 4-bed rooms ~$150–200/night total. Walk to beach.
-- Alternative: budget Airbnb in Waikiki/Ala Moana for 4.
+All 4 in one room — filter for **2 queen beds** (queens are bigger than fulls, and most Waikiki hotels list rooms this way). Target ~$200–280/night for the whole room.
+
+- **Holiday Inn Express Waikiki** — 2-queen rooms, free breakfast, 5-min walk to beach.
+- **Aqua Aloha Surf Waikiki** — 2-queen rooms, kitchenette in some, often $200ish.
+- **Coconut Waikiki Hotel** — 2-queen rooms, retro vibe, walkable to everything.
+- **Ohana Waikiki East by Outrigger** — reliable, 2-queen rooms.
+- Cheapest fallback: **Polynesian Hostel Beach Club** private quad room (4 separate twins, not 2 fulls — only if hotel rates spike).
+- Airbnb/VRBO works too — filter for "2 beds, sleeps 4" in Waikiki or Ala Moana.
 
 ### May 27 (arrival, late)
 - Land 11:57 PM. Skip TheBus (late runs sparse). Split a Lyft/Uber to Waikiki (~$35–45 for 4).
@@ -58,8 +64,13 @@
 - Pickup at KOA on arrival, return before 9:25 PM flight on 6/4.
 
 ### Lodging
-- **Airbnb/VRBO in Kona** for all 4 nights (~$150–250/night for whole place beats 2 hotel rooms). Look at Kailua-Kona, Holualoa, or Captain Cook.
-- Alternative: 2 nights Kona + 1 night near Volcano village to avoid one long drive day.
+All 4 in one room with 2 queen beds. Hotel options run ~$180–250/night for the whole room; Airbnbs around the same with a kitchen, which is the budget-saver.
+
+- **Kona Seaside Hotel** — cheapest reliable option in Kailua-Kona, 2-queen rooms, walkable to seawall.
+- **Royal Kona Resort** — 2-queen oceanview rooms, often $230ish, big pool.
+- **Holiday Inn Express Kailua-Kona** — 2-queen rooms, free breakfast.
+- **Airbnb/VRBO in Kailua-Kona, Holualoa, or Captain Cook** — filter "2 beds, sleeps 4" with kitchen. Best budget pick because you can cook.
+- **Recommended split**: 3 nights Kona + 1 night near Volcano village (5/31, 6/2, 6/3 in Kona; 6/1 near Volcano after the park day). Saves a brutal 5-hour round-trip drive on Volcanoes day. Look at **Volcano Village Lodge**, **Kīlauea Lodge**, or any Volcano-area Airbnb (~$150/night).
 
 ### Food/Money savers
 - **Costco Kona** (membership required) — gas is cheapest on island, plus stock up on poke, rotisserie chicken, water.
