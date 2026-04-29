@@ -105,7 +105,6 @@ All 4 in one room with 2 queen beds. Hotel ~$180–250/night; Airbnbs around the
 - Stops: [Kīlauea Visitor Center](https://www.google.com/search?q=Kilauea+Visitor+Center) → [Crater Rim Drive](https://www.google.com/search?q=Crater+Rim+Drive+Hawaii) → [Steam Vents](https://www.google.com/search?q=Steam+Vents+Hawaii+Volcanoes) → [Kīlauea Iki overlook](https://www.google.com/search?q=Kilauea+Iki+overlook) → **[Thurston Lava Tube](https://www.google.com/search?q=Thurston+Lava+Tube)** → [Chain of Craters Road](https://www.google.com/search?q=Chain+of+Craters+Road) down to [Hōlei Sea Arch](https://www.google.com/search?q=Holei+Sea+Arch).
 - Pack lunch, fill gas in Volcano village.
 - Stay past dark to see crater glow if [Kīlauea](https://www.google.com/search?q=Kilauea+volcano+current+activity) is erupting (check nps.gov/havo).
-- En route back: **[Punaluʻu Black Sand Beach](https://www.google.com/search?q=Punaluu+Black+Sand+Beach)** (sea turtles, often) if daylight.
 
 ### June 2 — Hilo waterfalls + Mauna Kea night
 - Drive [Saddle Road (Hwy 200)](https://www.google.com/search?q=Saddle+Road+Hwy+200+Hawaii) to [Hilo](https://www.google.com/search?q=Hilo+Hawaii) (~1.5 hr).
