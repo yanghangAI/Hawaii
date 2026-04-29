@@ -99,16 +99,37 @@
 
 ---
 
-## Rough Budget (per person, 4 ppl splitting)
+## Budget — $1,300 per person (excluding flights)
 
-| Item | Oahu | Big Island |
+Total group budget: **$5,200** for 4 people across 8 nights.
+
+### Target allocation (per person)
+
+| Category | Amount | Notes |
 |---|---|---|
-| Lodging | $40–60/night | $40–60/night |
-| Transit/car | $15 total (HOLO + Lyft) | $80–120 (car + gas split) |
-| Food | $40/day | $35/day |
-| Activities | $30–60 total | $20–40 total |
+| Lodging — Oahu (4 nights) | $240 | $240/night ÷ 4 — private hostel room or budget Airbnb in Waikiki |
+| Lodging — Big Island (4 nights) | $220 | $220/night ÷ 4 — Airbnb in Kona |
+| Big Island rental car + gas | $145 | ~$80/day × 5 days + ~$120 gas, split 4 ways |
+| Oahu transit (HOLO + Lyfts) | $25 | Bus pass + airport ride splits |
+| Food (9 days) | $360 | ~$40/day — mix of Costco/Walmart cooking + plate lunches + 2–3 sit-down meals |
+| Activities & parking | $110 | Diamond Head, Hanauma Bay, Volcanoes NP, Akaka Falls, Pu'uhonua entry |
+| **Subtotal** | **$1,100** | |
+| **Buffer / splurge** | **$200** | See options below |
+| **Total** | **$1,300** | |
 
-**Per person estimate: ~$700–950 not counting flights.**
+### What the buffer buys (pick one or split)
+- **Doors-off helicopter over Kīlauea** — ~$300/person (a stretch, but unforgettable if active)
+- **Manta ray night snorkel from Kona** — ~$120/person, world-class
+- **Pearl Harbor Battleship Missouri tour** — ~$35/person on top of free Arizona Memorial
+- **Sunset catamaran out of Waikiki** — ~$60/person with drinks
+- **Atlantis Submarine Waikiki** — ~$120/person (skip — overrated)
+- **Luau** — ~$150/person (Old Lahaina–style on Oahu; skip on Big Island)
+- **Nicer dinner** once on each island — ~$60/person each
+
+### Where to upgrade if comfort > savings
+- **Oahu lodging**: bump to ~$300/night (~$75/person/night) for a Waikiki condo with kitchen + parking — makes the late arrival much easier.
+- **Big Island lodging**: split between Kona (3 nights) and Volcano village (1 night near the park) so the Volcanoes day isn't a 5-hour round-trip drive. Volcano cabins/Airbnbs run ~$150/night.
+- **Rental car**: pay for the SUV upgrade (~$15/day extra) — much more comfortable for 4 + luggage on the long drives.
 
 ---
 
@@ -118,9 +139,4 @@
 3. **Hanauma Bay** — pros7.hnl.info, opens 48 hrs ahead at 7 AM HST
 4. **Big Island rental car** — Costco Travel / Discount Hawaii Car Rental
 5. Lodging on both islands
-
-## Things to skip (overrated for budget)
-- Polynesian Cultural Center ($90+/person)
-- Submarine tours
-- Helicopter tours (unless this is your splurge)
-- Luaus (~$150+/person — get cheap kalua pig at any plate lunch spot instead)
+6. Splurge activity (helicopter / manta snorkel) if doing one — these book up
