@@ -9,38 +9,98 @@
 <style>
   html, body { margin: 0; padding: 0; height: 100%; }
   #trip-map { height: 100vh; width: 100%; }
+  .legend-box {
+    background: white;
+    padding: 6px 10px;
+    border-radius: 6px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+    font-size: 11px;
+    line-height: 1.5;
+    max-width: 240px;
+  }
+  .legend-row { white-space: nowrap; }
+  .legend-dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 6px;
+    vertical-align: middle;
+  }
+  .legend-dash {
+    display: inline-block;
+    width: 14px;
+    height: 0;
+    border-top: 2px dashed #888;
+    margin-right: 6px;
+    vertical-align: middle;
+  }
 </style>
 </head>
 <body>
 <div id="trip-map"></div>
 <script>
 (function() {
-  var oahuColor = '#1f77b4';
-  var bigIslandColor = '#d62728';
+  var days = [
+    { date: '5/27', label: 'Wed — Arrival',                color: '#1f77b4',
+      stops: [
+        { name: 'HNL Airport (arrive 11:57 PM)',           coords: [21.3187, -157.9224] },
+        { name: 'Waikiki — lodging',                       coords: [21.2767, -157.8294] }
+      ]
+    },
+    { date: '5/28', label: 'Thu — Snorkel + Diamond Head', color: '#ff7f0e',
+      stops: [
+        { name: 'Sans Souci Beach (AM snorkel)',           coords: [21.2640, -157.8200] },
+        { name: 'Diamond Head (PM hike)',                  coords: [21.2620, -157.8055] }
+      ]
+    },
+    { date: '5/29', label: 'Fri — Kualoa Circle Island',   color: '#2ca02c',
+      stops: [
+        { name: 'Kualoa Ranch',                            coords: [21.5145, -157.8367] },
+        { name: 'Lanikai Beach',                           coords: [21.3933, -157.7156] }
+      ]
+    },
+    { date: '5/30', label: 'Sat — Split groups',           color: '#d62728',
+      stops: [
+        { name: 'Pearl Harbor / USS Arizona (A组)',         coords: [21.3650, -157.9500] },
+        { name: 'Hanauma Bay (B组 option)',                coords: [21.2690, -157.6938] }
+      ]
+    },
+    { date: '5/31', label: 'Sun — Fly HNL→KOA',            color: '#9467bd',
+      stops: [
+        { name: 'KOA Airport (arrive 3:29 PM)',            coords: [19.7388, -156.0456] },
+        { name: 'Kailua-Kona — lodging',                   coords: [19.6400, -155.9969] }
+      ]
+    },
+    { date: '6/1',  label: 'Mon — Volcanoes NP',           color: '#8c564b',
+      stops: [
+        { name: 'Hawaii Volcanoes NP',                     coords: [19.4302, -155.2570] }
+      ]
+    },
+    { date: '6/2',  label: 'Tue — Hilo + Mauna Kea night', color: '#e377c2',
+      stops: [
+        { name: 'Rainbow Falls, Hilo',                     coords: [19.7194, -155.1097] },
+        { name: 'Akaka Falls',                             coords: [19.8533, -155.1531] },
+        { name: 'Mauna Kea VIS (sunset + Milky Way)',      coords: [19.7607, -155.4561] }
+      ]
+    },
+    { date: '6/3',  label: 'Wed — Snorkel + Black Sand',   color: '#17becf',
+      stops: [
+        { name: 'Two Step / Hōnaunau (AM snorkel)',        coords: [19.4197, -155.9128] },
+        { name: 'Punaluʻu Black Sand Beach (PM)',          coords: [19.1356, -155.5050] }
+      ]
+    },
+    { date: '6/4',  label: 'Thu — Hapuna + Depart',        color: '#bcbd22',
+      stops: [
+        { name: 'Hapuna Beach',                            coords: [19.9931, -155.8253] },
+        { name: 'KOA Airport (depart 9:25 PM)',            coords: [19.7388, -156.0456] }
+      ]
+    }
+  ];
+
   var flightColor = '#888';
-
-  var oahu = [
-    { name: 'HNL Airport (arrive 5/27 11:57 PM)', coords: [21.3187, -157.9224] },
-    { name: 'Waikiki — lodging', coords: [21.2767, -157.8294] },
-    { name: 'Sans Souci Beach (5/28 AM snorkel)', coords: [21.2640, -157.8200] },
-    { name: 'Diamond Head (5/28 PM hike)', coords: [21.2620, -157.8055] },
-    { name: 'Kualoa Ranch (5/29 — Circle Island tour)', coords: [21.5145, -157.8367] },
-    { name: 'Lanikai Beach (5/29 — Circle Island tour)', coords: [21.3933, -157.7156] },
-    { name: 'Pearl Harbor / USS Arizona (5/30 — A组)', coords: [21.3650, -157.9500] },
-    { name: 'Hanauma Bay (5/30 — B组option)', coords: [21.2690, -157.6938] }
-  ];
-
-  var bigIsland = [
-    { name: 'KOA Airport (arrive 5/31 3:29 PM)', coords: [19.7388, -156.0456] },
-    { name: 'Kailua-Kona — lodging', coords: [19.6400, -155.9969] },
-    { name: 'Hawaii Volcanoes NP (6/1)', coords: [19.4302, -155.2570] },
-    { name: 'Rainbow Falls, Hilo (6/2 day)', coords: [19.7194, -155.1097] },
-    { name: 'Akaka Falls (6/2 day)', coords: [19.8533, -155.1531] },
-    { name: 'Mauna Kea Visitor Station (6/2 sunset + Milky Way)', coords: [19.7607, -155.4561] },
-    { name: 'Two Step / Hōnaunau (6/3 AM snorkel)', coords: [19.4197, -155.9128] },
-    { name: 'Punaluʻu Black Sand Beach (6/3 PM)', coords: [19.1356, -155.5050] },
-    { name: 'Hapuna Beach (6/4)', coords: [19.9931, -155.8253] }
-  ];
+  var hnl = [21.3187, -157.9224];
+  var koa = [19.7388, -156.0456];
 
   var map = L.map('trip-map');
   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -48,40 +108,48 @@
     attribution: '&copy; OpenStreetMap'
   }).addTo(map);
 
-  function addStops(stops, color) {
-    stops.forEach(function(s, i) {
-      L.circleMarker(s.coords, {
-        radius: 7, color: color, fillColor: color, fillOpacity: 0.85, weight: 2
-      }).bindPopup('<b>' + (i + 1) + '. ' + s.name + '</b>').addTo(map);
+  var allCoords = [];
+
+  days.forEach(function(day) {
+    day.stops.forEach(function(stop) {
+      L.circleMarker(stop.coords, {
+        radius: 7,
+        color: day.color,
+        fillColor: day.color,
+        fillOpacity: 0.85,
+        weight: 2
+      }).bindPopup('<b>' + day.date + ' — ' + stop.name + '</b>').addTo(map);
+      allCoords.push(stop.coords);
     });
-  }
+    if (day.stops.length > 1) {
+      L.polyline(day.stops.map(function(s) { return s.coords; }), {
+        color: day.color,
+        weight: 3,
+        opacity: 0.75
+      }).addTo(map);
+    }
+  });
 
-  addStops(oahu, oahuColor);
-  addStops(bigIsland, bigIslandColor);
-
-  L.polyline(oahu.map(function(s) { return s.coords; }), { color: oahuColor, weight: 3, opacity: 0.7 }).addTo(map);
-  L.polyline(bigIsland.map(function(s) { return s.coords; }), { color: bigIslandColor, weight: 3, opacity: 0.7 }).addTo(map);
-  L.polyline([oahu[0].coords, bigIsland[0].coords], {
-    color: flightColor, weight: 2, opacity: 0.6, dashArray: '6, 8'
+  L.polyline([hnl, koa], {
+    color: flightColor,
+    weight: 2,
+    opacity: 0.6,
+    dashArray: '6, 8'
   }).bindPopup('Flight HNL → KOA, 5/31').addTo(map);
 
   var legend = L.control({ position: 'bottomright' });
   legend.onAdd = function() {
-    var div = L.DomUtil.create('div');
-    div.style.background = 'white';
-    div.style.padding = '6px 10px';
-    div.style.borderRadius = '6px';
-    div.style.boxShadow = '0 1px 4px rgba(0,0,0,0.2)';
-    div.style.fontSize = '13px';
-    div.innerHTML =
-      '<div><span style="display:inline-block;width:10px;height:10px;background:' + oahuColor + ';border-radius:50%;margin-right:6px;"></span>Oahu (5/27–5/31)</div>' +
-      '<div><span style="display:inline-block;width:10px;height:10px;background:' + bigIslandColor + ';border-radius:50%;margin-right:6px;"></span>Big Island (5/31–6/4)</div>' +
-      '<div><span style="display:inline-block;width:14px;height:0;border-top:2px dashed ' + flightColor + ';margin-right:6px;vertical-align:middle;"></span>Inter-island flight</div>';
+    var div = L.DomUtil.create('div', 'legend-box');
+    var html = '';
+    days.forEach(function(day) {
+      html += '<div class="legend-row"><span class="legend-dot" style="background:' + day.color + ';"></span>' + day.date + ' ' + day.label + '</div>';
+    });
+    html += '<div class="legend-row"><span class="legend-dash"></span>Inter-island flight</div>';
+    div.innerHTML = html;
     return div;
   };
   legend.addTo(map);
 
-  var allCoords = oahu.concat(bigIsland).map(function(s) { return s.coords; });
   map.fitBounds(allCoords, { padding: [30, 30] });
 
   window.addEventListener('resize', function() { map.invalidateSize(); });
