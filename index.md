@@ -107,20 +107,28 @@ All 4 in one room with 2 queen beds. Hotel ~$180–250/night; Airbnbs around the
 - Stay past dark to see crater glow if [Kīlauea](https://www.google.com/search?q=Kilauea+volcano+current+activity) is erupting (check nps.gov/havo).
 - En route back: **[Punaluʻu Black Sand Beach](https://www.google.com/search?q=Punaluu+Black+Sand+Beach)** (sea turtles, often) if daylight.
 
-### June 2 — Hilo waterfalls
+### June 2 — Hilo waterfalls + Mauna Kea night
 - Drive [Saddle Road (Hwy 200)](https://www.google.com/search?q=Saddle+Road+Hwy+200+Hawaii) to [Hilo](https://www.google.com/search?q=Hilo+Hawaii) (~1.5 hr).
 - **[Rainbow Falls](https://www.google.com/search?q=Rainbow+Falls+Hilo)** (free, 5 min from parking).
 - **[Akaka Falls State Park](https://www.google.com/search?q=Akaka+Falls+State+Park)** ($5/vehicle, 442-ft falls, easy loop).
-- **[Punaluʻu Black Sand Beach](https://www.google.com/search?q=Punaluu+Black+Sand+Beach)** on the way back via south route.
+- Late afternoon: drive back via Saddle Road to **[Mauna Kea Visitor Information Station](https://www.google.com/search?q=Mauna+Kea+Visitor+Information+Station)** at 9,200 ft (~1.5 hr from Akaka).
+- **Sunset 云海 (sea of clouds)** — VIS sits above the trade-wind cloud deck, the cloud layer turns gold/pink at sunset (~6:55 PM in early June).
+- **银河 (Milky Way) stargazing** — VIS is in one of the darkest skies on Earth, no telescopes needed for naked-eye Milky Way (peaks 9–11 PM in June, looking south/southeast).
+  - [Mauna Kea stargazing program status](https://www.google.com/search?q=Mauna+Kea+Visitor+Information+Station+stargazing+program+2026) — check official site, free public programs have been intermittent.
+- ⚠️ **Cold + altitude warnings**:
+  - Temp at VIS drops to **40–55°F (4–13°C) after dark** even in summer — bring jackets/hats/long pants for everyone.
+  - Altitude (9,200 ft / 2,800 m) — drink water, no alcohol, walk slow. Don't go to the summit without 4WD + acclimatization.
+  - Drive down Saddle Road carefully at night; ~1.5 hr back to Kona.
 
-### June 3 — Kona snorkel day
+### June 3 — Kona snorkel day + Black Sand Beach
 - **[Two Step (Honaunau Bay)](https://www.google.com/search?q=Two+Step+Honaunau+Bay+snorkeling)** — best shore snorkeling, free. Get there by 8 AM for parking + calm water.
 - **[Puʻuhonua o Hōnaunau](https://www.google.com/search?q=Puuhonua+o+Honaunau+National+Historical+Park)** (Place of Refuge) next door, $20/vehicle.
-- Afternoon: **[Kealakekua Bay](https://www.google.com/search?q=Kealakekua+Bay+Captain+Cook+Monument)** lookout, or chill at Magic Sands.
+- Drive south on Hwy 11 to **[Punaluʻu Black Sand Beach](https://www.google.com/search?q=Punaluu+Black+Sand+Beach)** (~1.5 hr from Two Step) — sea turtles often resting on black sand.
+- Return to Kona via Hwy 11 (~1.5 hr).
 
 ### June 4 — last day, late flight
-- Morning: **[Hapuna Beach](https://www.google.com/search?q=Hapuna+Beach+State+Park)** (free, north of Kona ~45 min).
-- OR **[Mauna Kea Visitor Information Station](https://www.google.com/search?q=Mauna+Kea+Visitor+Information+Station)** at 9,200 ft — free, sunset is incredible. Acclimatize 30 min. Don't drive to summit without 4WD/permit.
+- **[Hapuna Beach](https://www.google.com/search?q=Hapuna+Beach+State+Park)** (free, north of Kona ~45 min) — one of the best beaches in the US.
+- Or chill / Costco run / **[Pololu Valley lookout](https://www.google.com/search?q=Pololu+Valley+Lookout)** at the far north tip if you want one more drive.
 - Return rental by ~7 PM, fly 9:25 PM.
 
 ---
